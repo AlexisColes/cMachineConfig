@@ -10,7 +10,7 @@ valid values are as follows:
 "V4x32" - .net framework v4 32 bit
 "V2x64" - .net framework v2 64 bit
 "V2x32" - .net framework v2 32 bit
-
+```PowerShell
 cMachineKey V4x64 \{
     ConfigType = V4x64
     Validation = "SHA1"
@@ -18,3 +18,4 @@ cMachineKey V4x64 \{
     Decryption = "AES"
     DecryptionKey = "55CDFB6B218A7984AEE8F19D2CB25BA35C8A60628DCFD905460D4A6D67E322F1"
 \}
+```
